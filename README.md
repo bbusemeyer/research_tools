@@ -1,6 +1,14 @@
-# Research tools notes
-Notes on tools used for programming and research compiled from QMC Meetings at the CCQ in August of 2021. 
+# Concept:
 
 It’s not my intent to provide details on every tool here, rather to jog your memory as to what the tool’s name was so you can do a quick online search to find more.
 
-The [Wiki page](https://github.com/bbusemeyer/research_tools/wiki) at linked at the top of the Github contains most of the information. 
+Programming environment:
+* [Shell and command line tips](commandline.md)
+* [Module](module.md)
+
+Programming tools:
+* [Editing code](editors.md)
+* [Debugging tools](debugging.md)
+
+Batch job management:
+* [Slurm commands](slurm.md)
