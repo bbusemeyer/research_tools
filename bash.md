@@ -49,6 +49,13 @@ parse_git_branch () {
 }
 PS1='[\u@\h \W]$(parse_git_branch)\$ '
 ```
+
+Iteration over values in bash.
+```
+ls {this, that, the_other}.out   # will try to ls three files in that order. 
+ls runs{0..9}.out                # will try to ls 10 files from 0 to 9 (I think inclusive)
+```
+
 # ZSH
 
 Bash superset. ‘Oh my ZSH’ on github, package manager. Grep automatically at the shell.
