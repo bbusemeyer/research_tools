@@ -2,6 +2,7 @@
 
 It’s not my intent to provide details on every tool here, rather to jog your memory as to what the tool’s name was so you can do a quick online search to find more.
 
+# All available notes:
 Programming environment:
 * [Shell and command line tips](bash.md)
 * [Module](module.md)
