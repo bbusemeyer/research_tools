@@ -10,10 +10,3 @@ Style convention for these notes:
 Programming environment:
 * [Shell and command line tips](bash.md)
 * [Module](module.md)
-
-Programming tools:
-* [Editing code](editors.md)
-* [Debugging tools](debugging.md)
-
-Batch job management:
-* [Slurm commands](slurm.md)
