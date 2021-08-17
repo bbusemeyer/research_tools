@@ -6,7 +6,12 @@ You should know about .bashrc, .bash_profile. The .bash_profile is loaded only o
 
 `<ctrl -r>` reverse search of previous commands.
 
-How to change history size (TODO)
+How to change history size, e.g.
+```
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+```
 
 Exporting bash functions is better than alias, as it is accessible outside of the bash command line. 
 
