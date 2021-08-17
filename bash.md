@@ -12,7 +12,7 @@ Exporting bash functions is better than alias, as it is accessible outside of th
 
 `.ssh/config` lets you avoid entering in addresses, i.e. `ssh rusty` will work. See `Host` keyword.
 What the lines do (TODO)
-
+```
 Proxy-jump to iterate login commands (a la Bryan)
 Host flatiron
   Hostname gateway.flatironinstitute.org
@@ -21,7 +21,7 @@ Host rusty rustyvflatiron
   Hostname rusty.flatironinstitute.org
 Host rustyvflatiron
   ProxyJump flatiron
-
+```
 
 
 ssh-keygen will allow you to generate keys, for passwordless login (if the admin allows it).
