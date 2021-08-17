@@ -11,7 +11,19 @@ How to change history size (TODO)
 Exporting bash functions is better than alias, as it is accessible outside of the bash command line. 
 
 `.ssh/config` lets you avoid entering in addresses, i.e. `ssh rusty` will work. See `Host` keyword.
-What the lines do (TODO)
+```
+ Host flatiron
+   Hostname gateway.flatironinstitute.org
+   Port 61022
+   User your_username
+   ForwardX11 yes 
+   ForwardX11Trusted yes 
+   DynamicForward 127.0.0.1:61080   # (I think) this allows other SSH sessions to use this one, so you don't have to log in again.
+   ControlPath ~/.ssh/.%r@%h:%p
+   ControlMaster auto
+   ServerAliveInterval 100          # stop the connection from closing automatically.
+```
+
 Proxy-jump to iterate login commands (a la Bryan)
 ```
 Host flatiron
