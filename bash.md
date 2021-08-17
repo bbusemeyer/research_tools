@@ -46,7 +46,9 @@ ssh-keygen will allow you to generate keys, for passwordless login (if the admin
 `PATH`, `PYTHONPATH`, `LD_MODULE_PATH` are useful environment variables. `module` (see [module notes](module.md)) is probably the best tool to edit these. Be very careful messing with these, it can cause compilation problems, if the wrong libraries are being used. Robert in SCC is setting up `spack`, a newer way of handling it. See Slack.
 
 Piping (`|`):
+```
 ls -1 scripts_sweep/*.slurm.sh | xargs -L 1 sbatch
+```
 
 Using ticks (OR `$(...)` ) to save the results.
 ```
