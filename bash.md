@@ -38,12 +38,12 @@ Host rustyvflatiron
 
 ssh-keygen will allow you to generate keys, for passwordless login (if the admin allows it).
 
-‘rsync’ is faster than scp in most cases, and has a bit more control (exclude file patterns, …). Sometimes I use it instead of cp for local!
-`-a` option is super useful.
+`rsync` is faster than `scp` in most cases, and has a bit more control (exclude file patterns, …). Sometimes I use it instead of `cp` for local!
+`-a` option is super useful, it keeps modification times, among other things.
 
-[Custom command line scripts](bin_scripts.md)
+[Custom command line scripts](bin_scripts.md) that you can call like other bash commands. 
 
-PATH, PYTHONPATH, LD_MODULE_PATH are useful environment variables. `module` (see [module notes](module.md)) is probably the best tool to edit these. Be very careful messing with these, it can cause compilation problems, if the wrong libraries are being used. Robert in SCC is setting up `spack`, a newer way of handling it. See Slack.
+`PATH`, `PYTHONPATH`, `LD_MODULE_PATH` are useful environment variables. `module` (see [module notes](module.md)) is probably the best tool to edit these. Be very careful messing with these, it can cause compilation problems, if the wrong libraries are being used. Robert in SCC is setting up `spack`, a newer way of handling it. See Slack.
 
 Piping (`|`):
 ls -1 scripts_sweep/*.slurm.sh | xargs -L 1 sbatch
@@ -71,5 +71,3 @@ ls runs{0..9}.out                # will try to ls 10 files from 0 to 9 (I think 
 # ZSH
 
 Bash superset. ‘Oh my ZSH’ on github, package manager. Grep automatically at the shell.
-
-# TCSHRC
