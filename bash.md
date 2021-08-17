@@ -29,7 +29,7 @@ ssh-keygen will allow you to generate keys, for passwordless login (if the admin
 ‘rsync’ is faster than scp in most cases, and has a bit more control (exclude file patterns, …). Sometimes I use it instead of cp for local!
 `-a` option is super useful.
 
-[Custom command line scripts](path_commands.md)
+[Custom command line scripts](bin_scripts.md)
 
 PATH, PYTHONPATH, LD_MODULE_PATH are useful environment variables. `module` (see [module notes](module.md)) is probably the best tool to edit these. Be very careful messing with these, it can cause compilation problems, if the wrong libraries are being used. Robert in SCC is setting up `spack`, a newer way of handling it. See Slack.
 
