@@ -12,8 +12,8 @@ Exporting bash functions is better than alias, as it is accessible outside of th
 
 `.ssh/config` lets you avoid entering in addresses, i.e. `ssh rusty` will work. See `Host` keyword.
 What the lines do (TODO)
-```
 Proxy-jump to iterate login commands (a la Bryan)
+```
 Host flatiron
   Hostname gateway.flatironinstitute.org
   Port 61022
