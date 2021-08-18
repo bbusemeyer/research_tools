@@ -32,3 +32,11 @@ Possible extensions:
 - Snakemake directly interacts with a queuing system like Slurm
 - Cloud computing.
 - Modularization.
+
+## Others? 
+
+No one else used other workflows at our meeting.
+
+Others that I know of:
+- [Fireworks](https://materialsproject.github.io/fireworks/)
+- [Nexus](https://qmcpack.org/nexus) specialized for QMCPACK workflows.
