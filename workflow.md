@@ -1,4 +1,4 @@
-# Wokflow
+# Workflow
 
 ## Pattern
 After each computation that takes more than roughly a second, write to disk.
