@@ -14,7 +14,11 @@ The point of these tools is to codify the workflow for a given project or calcul
 
 ## Snakemake
 
-[Snakemake](https://snakemake.readthedocs.io/en/stable/index.html) start as a simple workflow tool and scale up and a sophisticated one. See the Docs for more examples. [Here's a real-life example.](snakemake_example.smk). In that example, using
+[Snakemake](https://snakemake.readthedocs.io/en/stable/index.html) start as a simple workflow tool and scale up and a sophisticated one. See the Docs for more examples. 
+
+_If you do things with bash/python scripts_ you can still use those! You just call those scripts from the `run:` section of the Snakemake file.
+
+[Here's a real-life example.](snakemake_example.smk). In that example, using
 ```
 snakemake results/nv_ROKS_{lda,pbe,pbe0}_c-1_bccpv{d,t}z_s{63,127}_xewald_spin{0,2}/mcscf_casscf_si{0,1}_stspec/mcscfcalc.chk -j100
 ```
