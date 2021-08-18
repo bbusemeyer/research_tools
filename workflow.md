@@ -38,5 +38,5 @@ Possible extensions:
 No one else used other workflows at our meeting.
 
 Others that I know of:
-- [Fireworks](https://materialsproject.github.io/fireworks/)
+- [Fireworks](https://materialsproject.github.io/fireworks/), I tried it, but found it a bit too complicated for my taste. 
 - [Nexus](https://qmcpack.org/nexus) specialized for QMCPACK workflows.
