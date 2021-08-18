@@ -8,3 +8,10 @@ For example,
 - Plot trends, write plots to disk.
 
 A workflow is the directed graph codifying this process.
+
+# Workflow tools
+The point of these tools is to codify the workflow for a given project or calculation, automate it, and make it self-documenting and reproducible.
+
+## Snakemake
+
+[Snakemake](https://snakemake.readthedocs.io/en/stable/index.html) start as a simple workflow tool and scale up and a sophisticated one. See the Docs for more examples. [Here's a real-life example.](snakemake_example.smk)
