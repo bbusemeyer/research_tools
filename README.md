@@ -15,4 +15,4 @@ Programming environment:
 
 [Data storage](data.md)
 
-[Plotting](plotting.md)
+[Plotting and analyzing data](plotting.md)
