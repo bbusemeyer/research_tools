@@ -5,6 +5,7 @@ Pros:
 - Very readable (for pythonic eyes), easily editable.
 - Clean look
 - Supports objects and refereces.
+
 Cons:
 - Not very compact on disk.
 - Not as widely implemented as others (although still pretty wide)
@@ -22,6 +23,7 @@ Pros:
 - Human readable, easily editable.
 - Widely implemented.
 - Nested.
+
 Cons:
 - Not very compact on disk
 - Doesn't support arbitrary objects.
@@ -36,6 +38,7 @@ Pros:
 - Enforces columnar format, which is best for data analysis.
 - Widely implemented.
 - Kinda human readable (not really)
+
 Cons:
 - Restrictive format: nested data is awkward, matrices are awkward.
 - More compact than some formats, not as compact as others.
@@ -51,6 +54,7 @@ Pros:
 - Nested
 - Supports meta-data internally.
 - Implemented in a lot of places.
+
 Cons:
 - Not human readable.
 
