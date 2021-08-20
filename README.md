@@ -10,6 +10,7 @@ Style convention for these notes:
 Programming environment:
 * [Shell and command line tips](bash.md)
 * [Module](module.md)
+* [Editors and IDEs](editors.md)
 
 [Workflow tools](workflow.md)
 
