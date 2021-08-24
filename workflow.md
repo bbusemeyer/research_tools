@@ -28,6 +28,8 @@ Usinging the `-n` option is useful for checking before you launch 1000 jobs.
 
 There's also support for cloud computing, and its customizable. You can specify the range of valid options, or name a set of options in the `Snakefile`.
 
+[You can also visualize your workflow](https://snakemake.readthedocs.io/en/stable/tutorial/basics.html#step-4-indexing-read-alignments-and-visualizing-the-dag-of-jobs), which is useful for informal presentations (or perhaps formal one, with some modification?).
+
 Possible extensions:
 - Snakemake directly interacts with a queuing system like Slurm
 - Cloud computing.
