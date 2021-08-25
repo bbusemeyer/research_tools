@@ -21,6 +21,10 @@ Useful utitilies:
 * [Split-apply-combine](https://pandas.pydata.org/docs/user_guide/groupby.html) for operating on subsets of data.
 * [Merging data with overlapping indices](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html).
 
+Other hints:
+* `DataFrame.melt()` is a nice function for restructuring your data. 
+* `DataFrame.stack()`/`.unstack()` are simplified versions of `DataFrame.melt()`.
+
 ## R
 
-I used this a long time ago and found it useful, but I don't remember much...
+I used this a long time ago and found it useful, but I don't remember much... `ggplot` for plotting and the `data.frame` object for manipulations. Data frames are discussed, for instance, [here](https://www.r-tutor.com/r-introduction/data-frame).
