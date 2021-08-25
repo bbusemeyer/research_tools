@@ -65,6 +65,7 @@ Pros:
 
 Cons:
 - Not human readable, except using `h5dump` or `h5ls` or the like.
+- Must be modified with a program (not by hand).
 
 Good for:
 - Storing large arrays.
