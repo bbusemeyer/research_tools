@@ -1,6 +1,8 @@
 # Data storage
 
 ## YAML
+Does anyone know a parser for C++ that works well? (header only)
+
 Pros:
 - Very readable (for pythonic eyes), easily editable.
 - Clean look
@@ -62,3 +64,7 @@ Good for:
 - Storing large arrays.
 - Storing raw data, or hard-to-interpret data.
 - Can store meta data along side large arrays (e.g. tags for describing the data).
+
+## XML
+
+Verbose, but generic.
