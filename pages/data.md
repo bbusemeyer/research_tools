@@ -50,6 +50,8 @@ Good for:
 
 ## HDF5
 
+We're also looking for lightweight C++ interface (header only) libraries for hdf5.
+
 `h5dump -n` gives all data sets. Also similar is `h5ls`.
 
 `h5dump -d <data name>` will give the data labeled by 'data name'. 
