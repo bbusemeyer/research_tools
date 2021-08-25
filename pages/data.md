@@ -56,6 +56,11 @@ Good for:
 
 Compression tools available, even from command line.
 
+`h5edit` for command-line edits.
+
+Supports slicing on disk and in RAM. 
+Also parallelizable. There's an `hdf5p` library. 
+
 Pros:
 - Compact on disk
 - Fast IO
@@ -65,7 +70,7 @@ Pros:
 
 Cons:
 - Not human readable, except using `h5dump` or `h5ls` or the like.
-- Must be modified with a program (not by hand).
+- Must be modified with a program (not by hand with vim).
 
 Good for:
 - Storing large arrays.
