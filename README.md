@@ -10,12 +10,12 @@ Style convention for these notes:
 
 # All available notes:
 Programming environment:
-* [Shell and command line tips](bash.md)
+* [Shell and command line tips](pages/bash.md)
 * [Module](module.md)
-* [Editors and IDEs](editors.md)
+* [Editors and IDEs](pages/editors.md)
 
-[Workflow tools](workflow.md)
+[Workflow tools](pages/workflow.md)
 
-[Data storage](data.md)
+[Data storage](pages/data.md)
 
-[Plotting and analyzing data](plotting.md)
+[Plotting and analyzing data](pages/plotting.md)
