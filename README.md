@@ -11,7 +11,7 @@ Style convention for these notes:
 # All available notes:
 Programming environment:
 * [Shell and command line tips](pages/bash.md)
-* [Module](module.md)
+* [Module](pages/module.md)
 * [Editors and IDEs](pages/editors.md)
 
 [Workflow tools](pages/workflow.md)
