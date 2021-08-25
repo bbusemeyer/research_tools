@@ -18,4 +18,6 @@ Programming environment:
 
 [Data storage](pages/data.md)
 
+[Data structure tools](pages/data_structures.md)
+
 [Plotting and analyzing data](pages/plotting.md)
