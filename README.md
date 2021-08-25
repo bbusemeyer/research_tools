@@ -14,10 +14,10 @@ Programming environment:
 * [Module](pages/module.md)
 * [Editors and IDEs](pages/editors.md)
 
-[Workflow tools](pages/workflow.md)
+[Workflow tools](pages/workflow.md), e.g. tools for managing a series of scripts or executibles which perform a complex task.
 
-[Data storage](pages/data.md)
+[Data storage](pages/data.md), e.g. writing data to disk.
 
-[Data structure tools](pages/data_structures.md)
+[Data structure tools](pages/data_structures.md), e.g. viewing, analyzing, and manipulating data.
 
-[Plotting and analyzing data](pages/plotting.md)
+[Plotting](pages/plotting.md).
