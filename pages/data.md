@@ -54,6 +54,8 @@ Good for:
 
 `h5dump -d <data name>` will give the data labeled by 'data name'. 
 
+Compression tools available, even from command line.
+
 Pros:
 - Compact on disk
 - Fast IO
