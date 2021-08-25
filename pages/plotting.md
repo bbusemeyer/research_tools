@@ -1,17 +1,9 @@
-# Plotting and analyzing data
+# Plotting data.
 
-## Handling data.
+## Matplotlib. 
 
-### Python + Pandas.
+`fig, ax = subplots(2,1)` is a useful starting point. Then work with `ax.plot(...)` and so on.
 
-Useful applications:
-- pretty printing of data, including in Jupyter or on the cluster.
-- Group-apply-combine operations, e.g. averaging, normalizing, shifting subsets of data.
-- Cleaning up and merging data.
-- Plotting data, interfaces with `matplotlib` very well.
+## Building on Matplotlib.
 
-### R
-
-I used this many years ago, and it basically has the same properties as Pandas, but is function-oriented. `ggplot` is amazing for plotting.
-
-## Plotting data.
+I have a tool built on Matplotlib and Pandas that I can use for basically everything [here](https://github.com/bbusemeyer/busempyer/blob/master/busempyer/plot_tools.py).
