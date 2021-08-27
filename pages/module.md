@@ -33,7 +33,7 @@ To use custom modules, add the path to the module files to your `MODULEPATH` e.g
 `export MODULEPATH=~pyang/soft/modulefiles:$MODULEPATH`
 
 ## Modules collections
-Save the state of your modules. module save, restore. Can use when you only need the module loads. 
+Save the state of your modules for a given project and restore it easily without making a new module file.
 Try setting up some modules and doing:
 ```
 module save test
