@@ -20,4 +20,7 @@ Programming environment:
 
 [Data structure tools](pages/data_structures.md), e.g. viewing, analyzing, and manipulating data.
 
-[Plotting](pages/plotting.md).
+[Plotting](pages/plotting.md)
+* visualizing high-dimensional data.
+
+Slurm or other cluster command tricks.
