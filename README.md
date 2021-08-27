@@ -24,3 +24,5 @@ Programming environment:
 * visualizing high-dimensional data.
 
 Slurm or other cluster command tricks.
+
+Debuggers
