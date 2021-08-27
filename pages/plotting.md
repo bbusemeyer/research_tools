@@ -4,6 +4,11 @@
 
 `fig, ax = subplots(2,1)` is a useful starting point. Then work with `ax.plot(...)` and so on.
 
+Great addons:
+* [Seaborn](https://seaborn.pydata.org/) for visualizing statistical data, and actually just fixing up the defaults of Matplotlib. Check out `set_style`.
+* [Widget library](https://matplotlib.org/stable/api/widgets_api.html#gui-neutral-widgets) for interactive plots. 
+* [3D plotting library](https://matplotlib.org/2.0.2/mpl_toolkits/mplot3d/tutorial.html) works pretty ok.
+
 ## Building on Matplotlib.
 
 I have a tool built on Matplotlib and Pandas that I can use for basically everything [here](https://github.com/bbusemeyer/busempyer/blob/master/busempyer/plot_tools.py).
