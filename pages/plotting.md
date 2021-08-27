@@ -1,5 +1,7 @@
 # Plotting data.
 
+Most everyone at the meeting either always wraps around `Matplotlib` or else, does that but uses GNUplot for quick, anonymous plots. 
+
 ## Matplotlib. 
 
 `fig, ax = subplots(2,1)` is a useful starting point. Then work with `ax.plot(...)` and so on.
