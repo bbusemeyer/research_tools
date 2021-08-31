@@ -1,7 +1,6 @@
 # Data storage
 
 ## YAML
-Does anyone know a parser for C++ that works well? (header only)
 
 Pros:
 - Very readable (for pythonic eyes), easily editable.
@@ -16,6 +15,8 @@ Cons:
 Good for:
 - Input files
 - record keeping e.g. storing meta data or small data sets
+
+Does anyone know a parser for C++ that works well? (header only)
 
 ## JSON
 
@@ -50,19 +51,6 @@ Good for:
 
 ## HDF5
 
-We're also looking for lightweight C++ interface (header only) libraries for hdf5.
-
-`h5dump -n` gives all data sets. Also similar is `h5ls`.
-
-`h5dump -d <data name>` will give the data labeled by 'data name'. 
-
-Compression tools available, even from command line.
-
-`h5edit` for command-line edits.
-
-Supports slicing on disk and in RAM. 
-Also parallelizable. There's an `hdf5p` library. 
-
 Pros:
 - Compact on disk
 - Fast IO
@@ -78,6 +66,19 @@ Good for:
 - Storing large arrays.
 - Storing raw data, or hard-to-interpret data.
 - Can store meta data along side large arrays (e.g. tags for describing the data).
+
+`h5dump -n` gives all data sets. Also similar is `h5ls`.
+
+`h5dump -d <data name>` will give the data labeled by 'data name'. 
+
+Compression tools available, even from command line.
+
+`h5edit` for command-line edits.
+
+Supports slicing on disk and in RAM. 
+Also parallelizable. There's an `hdf5p` library. 
+
+We're also looking for lightweight C++ interface (header only) libraries for hdf5.
 
 ## XML
 
