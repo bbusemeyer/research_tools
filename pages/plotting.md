@@ -20,3 +20,5 @@ Paul has [some scripts](https://github.com/Paul-St-Young/harvest_qmcpack/blob/ma
 ## Quick ASCII Plots for "Previews" of Results:
 
 I have a [simple script](https://github.com/bkesk/AFQMC_ascii_plots) which uses GNUplot to make ascii plots. Currently, it is set up just for afqmclab results. Feel free to copy/reuse any code from it.
+
+## High-dimensional data.
