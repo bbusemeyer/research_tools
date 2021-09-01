@@ -8,3 +8,10 @@ sacct --starttime $date --format 'WorkDir%200,JobName,JobId,State,End' | grep -v
 ```
 
 `scontrol` another useful command.
+
+`srun --pty bash` for interactive mode.
+
+`salloc` to run anything you want. Returns a worker, then you can `ssh` into that worker.
+Good for compiling. 
+
+Other schedulers have similar commands (maybe replace s with something else, p, t, etc.).
