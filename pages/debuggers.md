@@ -8,6 +8,7 @@ Also check out "test-driven development." Good debugging often starts with good 
 You'll probably need to use `--ignore-module` or `--ignore-dir` options to avoid traversing `numpy` or the like.
 
 `pydb` or `pdb` allows `gdb`-like stepping through scripts. I personally find print statements more useful.
+Can tweak code during the debugging session.
 
 # C++
 
@@ -16,3 +17,6 @@ You'll probably need to use `--ignore-module` or `--ignore-dir` options to avoid
 VSCode (?)
 
 Total view for parallel debugging. Proprietary. 
+
+Compiler explorer, "god bolt" can try your library out with different compilers quickly. 
+Look at build times and also time execution. 
