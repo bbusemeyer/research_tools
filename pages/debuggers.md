@@ -20,3 +20,8 @@ Total view for parallel debugging. Proprietary.
 
 Compiler explorer, "god bolt" can try your library out with different compilers quickly. 
 Look at build times and also time execution. 
+
+a la James:
+* [Compiler Explorer](https://godbolt.org/)
+* Benchmarking in the browser (aka [quick-bench](https://quick-bench.com/))
+* [C++ build comparison](https://build-bench.com/) (in browser)
