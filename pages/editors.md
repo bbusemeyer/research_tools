@@ -25,6 +25,53 @@ Good for:
 - general purpose text editting 
 - code development
 
+### Useful VIM features
+
+Note VIM commands can often be added to other codes, e.g. Chrome, Jupyter, VSCcode!
+
+Vim folding for selective viewing of code (see in particular folding based on indent, `fdm='indent'`).
+
+`<ctrl-v>` for highlighting blocks. Combine with `Shift-I` for inserting columns e.g. commenting out.
+`.` will repeat last command.
+
+Splitting screen with `:vsplit` and `:split`. Use `<ctrl-W> + i,j,k,l` to move between them `<ctrl-W> + Shift + I,J,K,L` to move them.
+
+`f` and `F` search forward and backward in the line. `;` will repeat it.
+
+`%` will jump between a pair of brackets or parentheses.
+
+`!command` will issue `command` on the command line.
+`read !command` will do that and put the `STDOUT` into the file you're editing.
+
+`q-<symbol>` begins recording all commands until you hit `q` again, and saves those commands as a macro. `@-<symbol>` to repeat the macro.
+
+`m-<symbol>` will mark the spot in your code and `` `-<symbol>`` will move you back there. `` `+` `` will move to a previous position.
+
+`<ctrl-n>` will autocomplete based on other words in the file.
+
+All vim commands can be abbreviated, e.g. `:non` will do `:nonumber`. `:vs` will do `:vsplit`.
+
+VIM is good for LaTeX! Just sepearate your commands and sentences by newlines and you can do sentence-by-sentence editing with line operations.
+
+
+### Useful VIM addons
+
+Use [vundle](https://github.com/VundleVim/Vundle.vim) to add packages to VIM. 
+Useful vundle extensions that I use:
+* [Syntastic](https://github.com/vim-syntastic/syntastic) (automatic syntax error detection). I have some notes on it [here](https://bbusemeyer.github.io/notes/syntastic/)
+* [Julia syntax coloring](https://github.com/JuliaEditorSupport/julia-vim)
+
+Ones that I've heard about (turns out a lot of these use neovim):
+* [Indent guides](https://github.com/glepnir/indent-guides.nvim)
+* [Code completion suggestions like VScode (https://github.com/onsails/lspkind-nvim)
+* [VSCode(LSP)'s snippet feature in vim.](https://github.com/hrsh7th/vim-vsnip)
+* [A tree like view for symbols](https://github.com/simrat39/symbols-outline.nvim)
+* [File explorer](https://github.com/kyazdani42/nvim-tree.lua)
+* [Search for words across files](https://github.com/nvim-telescope/telescope.nvim)
+* [Automatic alignment](https://github.com/godlygeek/tabular)
+* [Another autocompletion option](https://github.com/hrsh7th/nvim-cmp)
+* [Autocomplete brackets](windwp/nvim-autopairs)
+
 ## emacs (text editor)
 
 Pros:
@@ -41,6 +88,8 @@ Cons:
 Good for:
 - general purpose text editting 
 - code development
+
+Useul
 
 ## Sublime Text (text editor)
 
