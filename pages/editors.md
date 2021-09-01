@@ -36,6 +36,10 @@ Vim folding for selective viewing of code (see in particular folding based on in
 
 Splitting screen with `:vsplit` and `:split`. Use `<ctrl-W> + i,j,k,l` to move between them `<ctrl-W> + Shift + I,J,K,L` to move them.
 
+`:e` to edit a different file, no argument will reload the current one.
+
+`ctrl-l` will refresh the screen, sometimes is useful if something messed up.
+
 `f` and `F` search forward and backward in the line. `;` will repeat it.
 
 `%` will jump between a pair of brackets or parentheses.
