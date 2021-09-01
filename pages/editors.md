@@ -152,7 +152,8 @@ Good for:
 
 Remote SSH extension to mount remote directories. 
 Reads your ssh config file, that helps a lot.
-Can put in vim commands.
+
+Can put in vim commands with an extension.
 
 Loads of nice features built-in that you'd have to find an extension for vim.
 
