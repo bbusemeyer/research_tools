@@ -23,6 +23,6 @@ Programming environment:
 [Plotting](pages/plotting.md)
 * visualizing high-dimensional data.
 
-Slurm or other cluster command tricks.
+[Slurm or other cluster command tricks.](pages/slurm.md)
 
-Debuggers
+[Debuggers](pages/debuggers.md)
