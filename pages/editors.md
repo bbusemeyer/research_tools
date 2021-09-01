@@ -157,3 +157,7 @@ Can put in vim commands with an extension.
 
 Loads of nice features built-in that you'd have to find an extension for vim.
 
+Some nice features from James:
+* [VSCode Remote-SSH](https://code.visualstudio.com/docs/remote/ssh)
+*  [Setting up VSCode Remote](https://jamesetsmith.github.io/Editing-Files-on-Remote-Server-From-a-Local-VSCode/) (a bit redundant with the docs above, but might be helpful)
+
