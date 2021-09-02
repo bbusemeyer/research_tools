@@ -105,7 +105,6 @@ Cons:
 Good for:
 - general purpose text editting 
 - code development
-- people that are very comfortable using regular expressions
 
 Useful commands:
 
@@ -113,7 +112,7 @@ Due to the complexitly of emacs, here, we assume some familiarity with the basic
 
 a rule of thumb is that most 'commands' will involve `ctrl-<key>` (hold ctrl while typing <key>, then release both), and
   then various macros and addons usually use `meta-<key>` and usually some more input, where the `meta` key is usually the left alt key. 
-  `Ecp` can be used as a stand in for meta, but should *not* be held down `Esc <key>` = `meta-<key>`.
+  `Esc` can be used as a stand in for meta, but should *not* be held down `Esc <key>` = `meta-<key>`.
 
 run `$ emacs -nw file_to_edit` to run emacs in the terminal (without '-nw', emacs will try to open it's own window)
 
