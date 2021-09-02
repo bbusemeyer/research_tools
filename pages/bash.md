@@ -23,11 +23,15 @@ Exporting bash functions is better than alias, as it is accessible outside of th
    User your_username
    ForwardX11 yes 
    ForwardX11Trusted yes 
-   DynamicForward 127.0.0.1:61080   # This enables port forwarding through the SSL tunnel
+   DynamicForward 127.0.0.1:61080   # This enables port forwarding through the SSL tunnel (more below)
    ControlPath ~/.ssh/.%r@%h:%p     # (with 'ControlMaster auto' set) specifies the localation of the control socket for ssh multiplexing (See below)
-   ControlMaster auto               # This allows other SSH sessions to use same SSL tunnel so that you don't have to log in again (called ssh multiplexing)
+   ControlMaster auto               # This allows multiple SSH sessions to use same SSL tunnel so that you don't have to log in again (called ssh multiplexing)
    ServerAliveInterval 100          # stop the connection from closing automatically.
 ```
+
+Port forwading ('DynamicForward' option above) is very general and can be used for many different things, including a similar effect to ProxyJump (see below). Port forwarding can be used to forward traffice to a different host:port combination. More on ssh port forwarding: https://www.redhat.com/sysadmin/ssh-dynamic-port-forwarding
+
+SSH Multiplexing ('ControlMaster','ControlPath',etc.) is focused scpeficially on allowing multiple ssh sessions to share the same "master" session. As long as the master session is active, new ssh sessions can simply connect automatically without having to log in again. This is very useful when combined with Proxy-jumping (below). It is a good security practice to close the master session when you won't be connecting again for a while (like at the end of the day). More on on ssh multiplexing: https://www.techrepublic.com/article/how-to-use-multiplexing-to-speed-up-the-ssh/
 
 Proxy-jump to iterate login commands (a la Bryan)
 ```
