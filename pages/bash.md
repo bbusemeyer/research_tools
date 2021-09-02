@@ -23,9 +23,9 @@ Exporting bash functions is better than alias, as it is accessible outside of th
    User your_username
    ForwardX11 yes 
    ForwardX11Trusted yes 
-   DynamicForward 127.0.0.1:61080   # (I think) this allows other SSH sessions to use this one, so you don't have to log in again.
-   ControlPath ~/.ssh/.%r@%h:%p
-   ControlMaster auto
+   DynamicForward 127.0.0.1:61080   # This enables port forwarding through the SSL tunnel
+   ControlPath ~/.ssh/.%r@%h:%p     # (with 'ControlMaster auto' set) specifies the localation of the control socket for ssh multiplexing (See below)
+   ControlMaster auto               # This allows other SSH sessions to use same SSL tunnel so that you don't have to log in again (called ssh multiplexing)
    ServerAliveInterval 100          # stop the connection from closing automatically.
 ```
 
@@ -78,3 +78,4 @@ ls runs{0..9}.out                # will try to ls 10 files from 0 to 9 (I think 
 # ZSH
 
 Bash superset. ‘Oh my ZSH’ on github, package manager. Grep automatically at the shell.
+
