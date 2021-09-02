@@ -1,6 +1,6 @@
 # Concept:
 
-These are notes from a series of internal meetings, "QMC Meeting" taking place in summer of 2021 at the Flatiron Institute's CCQ. 
+These are notes from a series of internal meetings, "QMC Meeting" taking place in summer of 2021 at the Flatiron Institute's CCQ. Please add to them as you like (although I may make edits if things get too messy)!
 
 It’s not my intent to provide details on every tool here, rather to jog your memory as to what the tool’s name was so you can do a quick online search to find more.
 
@@ -12,12 +12,18 @@ Style convention for these notes:
 Programming environment:
 * [Shell and command line tips](pages/bash.md)
 * [Module](pages/module.md)
+
+Programming:
 * [Editors and IDEs](pages/editors.md)
+* [Debuggers](pages/debuggers.md)
 
-[Workflow tools](pages/workflow.md), e.g. tools for managing a series of scripts or executibles which perform a complex task.
+Running computations:
+* [Workflow tools](pages/workflow.md), e.g. tools for managing a series of scripts or executibles which perform a complex task.
+* [Data storage](pages/data.md), e.g. writing data to disk.
+* [Slurm or other cluster command tricks.](pages/slurm.md)
 
-[Data storage](pages/data.md), e.g. writing data to disk.
+Analysis:
+* [Data structure tools](pages/data_structures.md), e.g. viewing, analyzing, and manipulating data.
+* [Plotting](pages/plotting.md)
 
-[Data structure tools](pages/data_structures.md), e.g. viewing, analyzing, and manipulating data.
 
-[Plotting](pages/plotting.md).

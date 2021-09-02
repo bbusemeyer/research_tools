@@ -32,4 +32,17 @@ prepend-path LD_LIBRARY_PATH  $dist/lib
 To use custom modules, add the path to the module files to your `MODULEPATH` e.g.
 `export MODULEPATH=~pyang/soft/modulefiles:$MODULEPATH`
 
-*Modules collections*: save the state of your modules. module save, restore. Can use when you only need the module loads. 
+## Modules collections
+Save the state of your modules for a given project and restore it easily without making a new module file.
+Try setting up some modules and doing:
+```
+module save test
+module purge 
+module restore test
+module list
+```
+You'll see its returned you to the state you were before.
+```
+module saverm test
+``` 
+will get rid of the saved state (which is in `${HOME}/.module` by the way).
