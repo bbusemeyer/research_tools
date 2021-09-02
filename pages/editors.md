@@ -108,15 +108,63 @@ Good for:
 
 Useful commands:
 
-Rectangles. 
+Due to the complexitly of emacs, here, we assume some familiarity with the basics ( check out this [Emacs tutorial](https://www.gnu.org/software/emacs/tour/) ).
 
-`ctrl-a/y` cut and paste.
+a rule of thumb is that most 'commands' will involve `ctrl-<key>` (hold ctrl while typing <key>, then release both), and
+  then various macros and addons usually use `meta-<key>` and usually some more input, where the `meta` key is usually the left alt key. 
+  `Esc` can be used as a stand in for meta, but should *not* be held down `Esc <key>` = `meta-<key>`.
 
-`ctrl-space` is highlighting.
+run `$ emacs -nw file_to_edit` to run emacs in the terminal (without '-nw', emacs will try to open it's own window)
+
+`ctrl-x ctrl-s` saves the current buffer(file)
+
+`ctrl-x ctrl-c` close emacs (will prompt you to save files, etc. in the 'minibuffer' at the bottom of the screen)
+
+`ctrl-x u` undo changes
+
+`ctrl-z` sends emacs to the background - resume with `$ %emacs` assuming emacs is the only 'job' running in the background
+
+`ctrl-g` and `Esc Esc`, can be used to cancel partially entered commands.
+
+`ctrl-space` is set marker
+
+Set marker(`ctrl-space`), then `ctrl-w` will *cut* the selected text.
+
+Set marker(`ctrl-space`), then `meta-w`(usually `left alt-w`) will *copy* the selected text.
+
+`ctrl-y` will yank(paste) at the current cursor position
+
+`ctrl-x ctrl-f` file_name will open 'file_name' in current active buffer
+
+opening multiple buffers:
+
+`ctrl-x 2` splits current buffer in to two buffers with a horizontal split
+
+`ctrl-x 3` splits current buffer in to two buffers with a vertical split
+
+`ctrl-x o` cycle between the 'split' buffers
+
+`ctrl-x 1` closes all 'split' buffers except the active one
+
+`meta-x shell` opens a shell (sometimes in new 'split' buffer, sometimes in current buffer depending on the configuration)
+
+Working with "Rectangles" which are a rectangular segment (in terms of rows and columns) of a file.
+To define a rectangle, place a marker in one of the corners:
+  - navigate to any corner of the rectangle (you can use the arrow keys to navigate)
+  - type `ctrl-space' to set a marker at that corner
+  - navigate to the opposite (diagonally) corner
+  - use any of the following 'rectangle' commands
+      - kill rectangle `C-x r k`
+      - yank rectangle `C-x r y`
+      - open rectangle, shifting text right C-x r o
+      - blank out rectangle C-x r c
+      - prefix each line with a string C-x r t
 
 Can split between a shell and a editing screen.
 
 Will auto-save things.
+
+GNU.org's [cheat sheet](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
 
 ## Sublime Text (text editor)
 
